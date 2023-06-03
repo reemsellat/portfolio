@@ -1,0 +1,313 @@
+@import url('https://fonts.cdnfonts.com/css/league-spartan');
+#part-1{
+   box-shadow:black 0px 10px 20px -5px, black 0px 8px 16px -8px;;
+    background-color:#242424;
+    display:flex;
+    position: fixed;
+   
+    
+  right:0;
+  left:0;
+  top:0;
+  padding-top:3vh;
+  padding-bottom:3vh;
+  padding-right:3vw;
+  z-index:100;
+    div{
+        display:flex;
+        
+       
+    }
+    
+}
+button{
+    background-color:#242424;
+    color:#FE4789;
+    border:1px solid #FE4789;
+    
+   
+}
+#logo{
+    width:100px;
+    height:100px;
+   position: fixed;
+   left:0;
+}
+body{
+    background-color:#242424;
+    
+}
+*{
+    @import url('https://fonts.cdnfonts.com/css/calibre');
+    font-family: 'Calibre', sans-serif;
+    color:#D8D7D7
+}
+#part-2 p{
+    font-size:20px;
+    line-height:0.5;
+   
+}
+h1{
+    font-size:80px;
+line-height:0.5;
+
+ 
+}
+span{
+    color:#FE4789;
+}
+#part-1 span{
+    font-size:15px
+}
+#part-1{
+    display:flex;
+    gap:15px;
+    justify-content:end;
+    align-items:center;
+    
+}
+#part-1 p{
+    font-size:15px
+}
+button{
+    background-color:transparent;
+    color:#FE4789;
+    border:1px solid #FE4789;
+    border-radius:5px;
+    font-weight:normal;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    transition:all 0.3s
+   
+
+}
+#part-2{
+    margin-left:8vw;
+    margin-top:25vh
+}
+#part-3{
+    font-weight:lighter;
+    display:flex;
+    alig-items:center;
+    padding-left:10vw;
+    padding-right:10vw;
+    gap:15vw;
+    margin-top:40vh;
+    align-items:center
+   
+}
+#part-3 div img{
+    width:326px;
+    border:3px solid #FE4789;
+    border-radius:5px;
+}
+#part-3 div{
+    flex-basis:40vw;
+    
+   
+}
+#part-3 p{
+    line-height:30px;
+    font-size:20px;
+    color:#ADAAAA
+    
+
+}
+#part-4{
+    display:flex;
+    align-items:center;
+    padding-left:10vw;
+    padding-right:10vw;
+    margin-top:35vh;
+
+}
+#part-4 div{
+    flex-basis:40vw;
+}
+#part-4 p{
+    color:#ADAAAA;
+    line-height:25px;
+}
+#part-4 #skills{
+    display:flex
+}
+#part-5{
+    display:flex;
+    flex-basis:40vw;
+    padding-left:10vw;
+    padding-right:10vw;
+    margin-top:25vh;
+    align-items:center;
+    gap:15vw
+}
+#part-5 p{
+    color:#ADAAAA;
+    line-height:25px;
+    
+}
+#part-5 img{
+   height:80vh;
+   width:50vw;
+   object-fit:scale-down;
+   filter:brightness(50%);
+   cursor: pointer;
+
+   
+}
+#part-5 img:hover{
+    filter:brightness(100%)
+}
+#project-1{
+    display:flex;
+    align-items:center;
+    gap:2vw
+}
+#project-2{
+    display:flex;
+    align-items:center;
+    gap:2vw
+}
+#part-6{
+    padding-left:10vw;
+  
+}
+#contact{
+    display:flex;
+    align-items:center
+   
+    
+}
+#message{
+    display:flex;
+    flex-direction:column
+}
+#social-media{
+    display:flex;
+    flex-direction:column;
+    position: fixed;
+    right:3vw;
+    top:40vh;
+    gap:2vh
+}
+#social-media img{
+    width:30px;
+    cursor: pointer;
+}
+button:hover{
+background-color:#FE4789 !important;
+color:#242424 !important;
+cursor: pointer;
+
+}
+a{
+    text-decoration:none
+}
+#side-bar{
+    background-color:black;
+    position: fixed;
+    right:-75vw;
+    top:0;
+    bottom:0;
+    z-index:500;
+    width:75vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:20px
+   
+}
+#side-bar span{
+margin-top:5vh
+}
+.hamburger-react{
+       display:none ;
+       z-index: 1000;
+       position: fixed;
+       top:0;
+       right:0
+     
+
+}
+.project-desc{
+    border:1px solid green;
+    border-radius:20px;
+    padding:1vw
+}
+input,textarea{
+    background-color:black;
+    border:none
+}
+@media only screen and (min-width: 992px) {
+
+
+}
+@media screen and (min-width:600px) and (max-width:992px){
+    #side-bar{
+       
+        nav,a{
+            display:none !important;
+        }
+    }
+    .hamburger-react{
+       display:none
+    }
+  
+    button{
+        display:block
+    }
+    h1{
+        font-size:50px;
+        line-height:1
+      }
+     
+}
+@media screen and (max-width:600px){
+    #side-bar{
+       
+        nav,a{
+            display:block !important;
+        }
+    }
+    .hamburger-react{
+       display:block;
+       top:0.5vh
+    }
+    #part-1 nav{
+     
+            display:none !important 
+       
+    }
+    #part-1{
+        padding-top:5vh;
+        padding-bottom:5vh;
+    }
+    #part-3{
+        margin-top:25vh
+    }
+    button{
+        display:none
+    }
+    #social-media{
+        display:none
+    }
+    h1{
+        font-size:30px;
+        line-height:1
+    }
+    #part-3,#part-4,#project-1,#part-6,#contact{
+        flex-direction:column;
+       
+    }
+    #project-2{
+        flex-direction:column-reverse;
+        margin-top:2vh
+    }
+    #project-2 img,#project-1 img{
+        width:80vw;
+        height:auto
+    }
+
+}
