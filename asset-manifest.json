@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reemsellat/portfolio/static/css/main.07278cc9.css",
+    "main.js": "/reemsellat/portfolio/static/js/main.8063b1c0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/reemsellat/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/myfood.PNG": "/reemsellat/portfolio/static/media/myfood.b60607ca9047b46c1f3c.PNG",
+    "static/media/_prev_ui.png": "/reemsellat/portfolio/static/media/ee3369f79097a1e4c1c95742b2483a15_prev_ui.35815ab85b0ef844759c.png",
+    "static/media/playsound.PNG": "/reemsellat/portfolio/static/media/playsound.97985b168216679a4505.PNG",
+    "static/media/Elegant Circle Signature Photography Logo_prev_ui.png": "/reemsellat/portfolio/static/media/Elegant Circle Signature Photography Logo_prev_ui.163eca8eec49b5aaff0d.png",
+    "static/media/photo__y.jpg": "/reemsellat/portfolio/static/media/photo_5902243040435747671_y.6f637880fc479b55a9ac.jpg",
+    "static/media/668_prev_ui.png": "/reemsellat/portfolio/static/media/668_prev_ui.cb13a4d032a374cebc61.png",
+    "index.html": "/reemsellat/portfolio/index.html",
+    "main.07278cc9.css.map": "/reemsellat/portfolio/static/css/main.07278cc9.css.map",
+    "main.8063b1c0.js.map": "/reemsellat/portfolio/static/js/main.8063b1c0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/reemsellat/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07278cc9.css",
+    "static/js/main.8063b1c0.js"
+  ]
+}
