@@ -93,7 +93,7 @@ export default function Home(){
             <a href='#part-6'><span>04. </span>Contact</a>
   
           </nav>
-          <a href='./reem.pdf' target='_new'>
+          <a href='./src/reem.pdf' target='_new'>
           <div id='resume'>
              <button>Resume</button>
              </div>
