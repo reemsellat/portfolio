@@ -94,7 +94,7 @@ button{
     padding-left:10vw;
     padding-right:10vw;
     gap:15vw;
-    margin-top:40vh;
+    padding-top:40vh;
     align-items:center
    
 }
@@ -120,7 +120,7 @@ button{
     align-items:center;
     padding-left:10vw;
     padding-right:10vw;
-    margin-top:35vh;
+    padding-top:35vh;
 
 }
 #part-4 div{
@@ -138,7 +138,7 @@ button{
     flex-basis:40vw;
     padding-left:10vw;
     padding-right:10vw;
-    margin-top:25vh;
+    padding-top:25vh;
     align-items:center;
     gap:15vw
 }
@@ -153,10 +153,12 @@ button{
    object-fit:scale-down;
    filter:brightness(50%);
    cursor: pointer;
+   transition:all 0.6s
 
    
 }
 #part-5 img:hover{
+   
     filter:brightness(100%)
 }
 #project-1{
@@ -202,8 +204,31 @@ cursor: pointer;
 
 }
 a{
-    text-decoration:none
+    text-decoration:none;
+    transition:all 0.3s
 }
+a:hover{
+    color:white
+}
+svg{
+    cursor: pointer;
+}
+path :hover{
+    fill:white
+}
+::selection {
+    background: gray;
+    color:white
+  }
+svg :hover{
+    color:white;
+    transition:all 0.3s
+}
+img,#contact{
+    max-width:100vw
+}
+
+
 #side-bar{
     background-color:black;
     position: fixed;
@@ -222,6 +247,15 @@ a{
 #side-bar span{
 margin-top:5vh
 }
+::-webkit-scrollbar{
+    width:7px;
+    border-radius:10px;
+    background: #242424;
+}
+::-webkit-scrollbar-thumb:vertical{
+    background: #D8D7D7;
+    border-radius: 10px;
+}
 .hamburger-react{
        display:none ;
        z-index: 1000;
@@ -236,6 +270,10 @@ margin-top:5vh
     border-radius:20px;
     padding:1vw
 }
+.icons{
+    margin-left:80%
+}
+
 input,textarea{
     background-color:black;
     border:none
@@ -262,6 +300,12 @@ input,textarea{
         font-size:50px;
         line-height:1
       }
+      #text,  p{
+        font-size:18px !important
+      }
+      #contact{
+        flex-direction:column
+      }
      
 }
 @media screen and (max-width:600px){
@@ -285,10 +329,13 @@ input,textarea{
         padding-bottom:5vh;
     }
     #part-3{
-        margin-top:25vh
+        padding-top:25vh
     }
-    button{
-        display:none
+    #skills{
+        width:80vw
+    }
+    #resume button{
+       visibility:hidden
     }
     #social-media{
         display:none
@@ -309,5 +356,11 @@ input,textarea{
         width:80vw;
         height:auto
     }
+   #text, p{
+        font-size:16px !important
+      }
+      #contact{
+        flex-direction:column
+      }
 
 }
