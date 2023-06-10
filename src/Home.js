@@ -93,7 +93,7 @@ export default function Home(){
             <a href='#part-6'><span>04. </span>Contact</a>
   
           </nav>
-          <a href='reemsellat.github.io/portfolio/src/reem.pdf' target='_blank'>
+          <a href='https://drive.google.com/file/d/1bi2_vNXIZU6AAPlOKyM0spx4hjdLmGDJ/view?usp=sharing' target='_blank'>
           <div id='resume'>
              <button>Resume</button>
              </div>
