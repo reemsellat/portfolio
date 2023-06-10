@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reemsellat/portfolio/static/css/main.f1908732.css",
-    "main.js": "/reemsellat/portfolio/static/js/main.39591a9f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/reemsellat/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/myfood.PNG": "/reemsellat/portfolio/static/media/myfood.b60607ca9047b46c1f3c.PNG",
-    "static/media/_prev_ui.png": "/reemsellat/portfolio/static/media/ee3369f79097a1e4c1c95742b2483a15_prev_ui.35815ab85b0ef844759c.png",
-    "static/media/playsound.PNG": "/reemsellat/portfolio/static/media/playsound.97985b168216679a4505.PNG",
-    "static/media/Elegant Circle Signature Photography Logo_prev_ui.png": "/reemsellat/portfolio/static/media/Elegant Circle Signature Photography Logo_prev_ui.163eca8eec49b5aaff0d.png",
-    "static/media/photo__y.jpg": "/reemsellat/portfolio/static/media/photo_5902243040435747671_y.6f637880fc479b55a9ac.jpg",
-    "static/media/reem.pdf": "/reemsellat/portfolio/static/media/reem.ba4b5dbf2e2bef6f162b.pdf",
-    "static/media/668_prev_ui.png": "/reemsellat/portfolio/static/media/668_prev_ui.cb13a4d032a374cebc61.png",
-    "index.html": "/reemsellat/portfolio/index.html",
-    "main.f1908732.css.map": "/reemsellat/portfolio/static/css/main.f1908732.css.map",
-    "main.39591a9f.js.map": "/reemsellat/portfolio/static/js/main.39591a9f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/reemsellat/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f1908732.css",
+    "main.js": "/portfolio/static/js/main.52839c55.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/myfood.PNG": "/portfolio/static/media/myfood.b60607ca9047b46c1f3c.PNG",
+    "static/media/_prev_ui.png": "/portfolio/static/media/ee3369f79097a1e4c1c95742b2483a15_prev_ui.35815ab85b0ef844759c.png",
+    "static/media/playsound.PNG": "/portfolio/static/media/playsound.97985b168216679a4505.PNG",
+    "static/media/Elegant Circle Signature Photography Logo_prev_ui.png": "/portfolio/static/media/Elegant Circle Signature Photography Logo_prev_ui.163eca8eec49b5aaff0d.png",
+    "static/media/photo__y.jpg": "/portfolio/static/media/photo_5902243040435747671_y.6f637880fc479b55a9ac.jpg",
+    "static/media/reem.pdf": "/portfolio/static/media/reem.ba4b5dbf2e2bef6f162b.pdf",
+    "static/media/668_prev_ui.png": "/portfolio/static/media/668_prev_ui.cb13a4d032a374cebc61.png",
+    "index.html": "/portfolio/index.html",
+    "main.f1908732.css.map": "/portfolio/static/css/main.f1908732.css.map",
+    "main.52839c55.js.map": "/portfolio/static/js/main.52839c55.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1908732.css",
-    "static/js/main.39591a9f.js"
+    "static/js/main.52839c55.js"
   ]
 }
