@@ -72,8 +72,8 @@ export default function Home(){
         <div id='social-media'>
           <a href='https://github.com/reemsellat' target='_blank'> <Icon path={mdiGithub} size={1.5} /></a>
           <a href='https://codepen.io/Reem-Sellat' target='_blank'><Icon path={mdiCodepen} size={1.5} /></a>
-          <a><Icon path={mdiLinkedin} size={1.5} /></a>
-          <a><Icon path={mdiGmail} size={1.5} /></a>
+          <a href='https://www.linkedin.com/in/reem-sellat-89484927b/' target='_blank'><Icon path={mdiLinkedin} size={1.5} /></a>
+     
         
         </div>
         <div id='part-1'>
@@ -130,7 +130,7 @@ export default function Home(){
               </div>
               <div>
                 <p style={{ color: '#2FA406' }}>{leftArrow.current}- - -backend- - -{rightArrow.current}</p>
-                <p>.Nodejs<br></br>.MongoDB<br></br>.Express<br></br>.Firebase<br></br>.git</p>
+                <p>.Nodejs<br></br>.MongoDB<br></br>.Express<br></br>.Firebase</p>
                 <p style={{ color: '#2FA406' }}>{leftArrow.current}- - - - -{rightArrow.current}</p>
               </div>
             </div>
@@ -153,8 +153,8 @@ export default function Home(){
                 <div className='project-desc'>
                 <h3>Ecommerce Website</h3>
                   <p>
-                    Ecommerce Website which has
-                    Authentication System, shopping cart, rating system, reviews, it’s responsive
+                    A responsive Website which has an
+                    Authentication System, shopping cart, and rating system.
                   </p>
                   <h4>Tools</h4>
                   <p>
@@ -182,7 +182,7 @@ export default function Home(){
                 <h3>Music Player Website</h3>
                 <div>
                   <p>
-                    App which you can pick your album and listen to it, upload your music with authorization and authentication ,and dark and light mode
+                    You can listen to tracks, filter results, and like your favorites. Also you can upload new ones after creating your account.
                   </p>
                   <h4>Tools</h4>
                   <p>
