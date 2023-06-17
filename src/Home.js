@@ -109,8 +109,8 @@ export default function Home(){
         <div id='part-3'>
           <div>
             <h2><span>01. </span>About me</h2>
-            <p>My name is Reem, 21 years old IT student from Syria, I started coding in 2020 by participating in ACM programming contest, and this was where I loved programming and gained some skills in algorithms, and critical thinking.
-              Then I started learning web development in 2022, which became my passion, focusing on frontend, and ux/ui  with a basic knowledge of backend .Also I love music and coffee :)
+            <p>My name is Reem, 21 years old from Syria. I'm studying informatics engineering in Tishreen university. I started coding back in 2020 by participating in the SCPC programming contest, and this was where I loved programming and gained some algorithmic skills.
+              Then I started learning web development in 2022, which became my passion, focusing on frontend stack, with some good knowledge of backend .
   
             </p>
           </div>

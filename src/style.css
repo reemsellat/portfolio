@@ -306,6 +306,7 @@ input,textarea{
       #contact{
         flex-direction:column
       }
+   
      
 }
 @media screen and (max-width:600px){
@@ -344,10 +345,7 @@ input,textarea{
         font-size:30px;
         line-height:1
     }
-    #part-3,#part-4,#project-1,#part-6,#contact{
-        flex-direction:column;
-       
-    }
+   
     #project-2{
         flex-direction:column-reverse;
         margin-top:2vh
@@ -363,4 +361,64 @@ input,textarea{
         flex-direction:column
       }
 
+}
+@media only screen and (max-width: 600px) {
+    #part-3,#part-4,#project-1,#part-6,#contact{
+        flex-direction:column;
+       
+    }
+    #skills{
+        width:80vw
+    }
+    #project-2{
+        flex-direction:column-reverse
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #part-3,#part-4,#project-1,#part-6,#contact{
+        flex-direction:column;
+       
+    }
+    #skills{
+        width:80vw
+    }
+    #project-2{
+        flex-direction:column-reverse
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #part-3,#part-4,#project-1,#part-6,#contact{
+        flex-direction:column;
+       
+    }
+    #part-3{
+        row-gap:0
+    }
+    #skills{
+        width:80vw
+    }
+    #project-2{
+        flex-direction:column-reverse
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #part-3,#part-4,#project-1,#project-2,#part-6,#contact{
+        flex-direction:row;
+       
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #part-3,#part-4,#project-1,#project-2,#part-6,#contact{
+        flex-direction:row;
+       
+    }
+    
 }
