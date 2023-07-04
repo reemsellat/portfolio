@@ -261,7 +261,8 @@ margin-top:5vh
        z-index: 1000;
        position: fixed;
        top:0;
-       right:0
+       right:0;
+       margin:5px
      
 
 }
@@ -326,8 +327,7 @@ input,textarea{
        
     }
     #part-1{
-        padding-top:5vh;
-        padding-bottom:5vh;
+       
     }
     #part-3{
         padding-top:25vh

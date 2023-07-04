@@ -26,7 +26,7 @@ export default function Home(){
     return (
       <div >
   
-        <div className='hamburger-react' ><Hamburger color='#FE4789' onToggle={toggled => {
+        <div className='hamburger-react' ><Hamburger  color='#FE4789' onToggle={toggled => {
           if (toggled) {
             document.getElementById('side-bar').style.right = '0'
           } else {
